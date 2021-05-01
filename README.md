@@ -8,3 +8,13 @@
 # Use Javascript for DOM manipulation
 # Deploy your game online, where the rest of the world can access it
 # Use semantic markup for HTML and CSS (adhere to best practices)
+<<<<<<< HEAD
+=======
+
+
+### PLANNING
+
+# We need to have 6 boxes for the 9 different choices of the player
+# Player needs to click on the chosen box and it needs to add a cross or circle depending on turns
+# If a player click on one then the next one will be a different player
+>>>>>>> parent of afd9d46... THIS IS THE FULL ONE
