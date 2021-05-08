@@ -187,7 +187,6 @@ function action(event) {
     }
     win = false
   } else if (targetAction.className == 'quit') {
-    console.log(targetAction)
     window.close()
   }
 }
