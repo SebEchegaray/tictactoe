@@ -2,8 +2,61 @@
 <html lang="en">
   <head>
     <title>Tic Tac Toe</title>
+    <script src="main.js" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
   </head>
   <body>
+    <form action="">
+      <div class="names_input-container">
+        <input type="text" id="first_player-name" placeholder="X PLAYER NAME">
+        <input type="text" id="second_player-name" placeholder="O PLAYER NAME">
+        <button class="start_game">START</button>
+      </div>
+    </form>
+
+    <div id="menu">
+      <button id="reset">RESET</button>
+      <!-- <button id="quit">QUIT</button> -->
+    </div>
+
+    <div id="ghost_overlay">&nbsp;</div>  <!--  This is an overlay to avoid clicking boxes  -->
     
+    <h1 id="main_title">TicTacToe</h1>
+    <main id="main_wrapper">
+
+      <div class="x_player">
+        <h1 class="x_char">X</h1>
+        <h1 id="first_pl"></h1>
+      </div>
+
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+
+      <div class="o_player">
+        <h1 class="o_char">O</h1>
+        <h1 id="second_pl"></h1>
+      </div>
+
+    </main>
+
+    <div id="pop_up">
+      <h1 id="pop_up-msg"></h1>
+      <div id="buttons_display">
+        <button class="new_game">NEW GAME</button>
+        <button class="refresh">RELOAD</button>
+        <button class="quit">QUIT</button>
+      </div>
+    </div>
   </body>
 </html>
